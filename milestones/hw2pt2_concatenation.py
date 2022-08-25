@@ -1,3 +1,8 @@
+### will run script with concatenated URL
+
+###Need to still make it into a .txt file
+
+
 from bs4 import BeautifulSoup
 import requests
 
@@ -12,6 +17,8 @@ for link in links:
     print('https://samples.adsbexchange.com/readsb-hist/2022/05/01/'+link)
 
 print(len(links))
+
+
 
 
 
