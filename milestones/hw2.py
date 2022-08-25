@@ -6,3 +6,4 @@ html = r.text
 soup = BeautifulSoup(html, 'lxml')
 for link in soup.find_all('a'):
     print(link)
+
