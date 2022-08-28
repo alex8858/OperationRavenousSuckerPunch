@@ -2,10 +2,8 @@
 ###Import Libraries
 from bs4 import BeautifulSoup
 import requests
-
-###Create .txt file
-
-f = open("Data.txt","w+", encoding='utf-8', newline='') 
+from downloadfile import download_url
+ 
 
 
 links = []
@@ -16,12 +14,12 @@ for link in soup.find_all('a'):
     links.append(link.get('href'))
 
 for link in links:
-    print('https://samples.adsbexchange.com/readsb-hist/2022/05/01/'+link)
+    if '.json.gz' in link:
+        print('https://samples.adsbexchange.com/readsb-hist/2022/05/01/'+link)
 
-print(len(links))
+datafile_path = '/Users/alexguay/Workspace/OperationRavenousSuckerPunch-2/data.txt'
 
-f.write('https://samples.adsbexchange.com/readsb-hist/2022/05/01/'+link)
+download_url(datafile_path)
 
-f.close()
 
 
