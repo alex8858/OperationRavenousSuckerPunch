@@ -17,9 +17,6 @@ for link in links:
     if '.json.gz' in link:
         print('https://samples.adsbexchange.com/readsb-hist/2022/05/01/'+link)
 
-datafile_path = '/Users/alexguay/Workspace/OperationRavenousSuckerPunch-2/data.txt'
 
-download_url(datafile_path)
-
-
-
+if __name__ =='__main__':
+    download_url()
