@@ -1,4 +1,3 @@
-  n/s://samples.adsbexchange.com/readsb-hist/2022/05/01/../
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/000000Z.json.gz
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/000005Z.json.gz
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/000010Z.json.gz
@@ -17279,4 +17278,3 @@ https://samples.adsbexchange.com/readsb-hist/2022/05/01/235940Z.json.gz
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/235945Z.json.gz
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/235950Z.json.gz
 https://samples.adsbexchange.com/readsb-hist/2022/05/01/235955Z.json.gz
-17281
